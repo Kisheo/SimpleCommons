@@ -145,10 +145,10 @@ class AboutActivity : BaseSimpleActivity() {
         val separator = "------------------------------"
         val body = "$appVersion$newline$deviceOS$newline$separator$newline$newline"
 
-        val address = if (packageName.startsWith("com.simplemobiletools")) {
-            getString(R.string.my_email)
+        val address = if (packageName.startsWith("com.dpsoft")) {
+            "dompango@outlook.com"
         } else {
-            getString(R.string.my_fake_email)
+            "dompango@outlook.com"
         }
 
         val selectorIntent = Intent(ACTION_SENDTO)
