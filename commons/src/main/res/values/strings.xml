@@ -1140,4 +1140,5 @@
 
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">A group of simple, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
+    <string name="made_in_tanzania">Made in Tanzania</string>
 </resources>

@@ -75,12 +75,14 @@
                 android:id="@+id/about_social"
                 style="@style/MaterialSectionLabelStyle"
                 android:layout_width="match_parent"
+                android:visibility="gone"
                 android:layout_height="wrap_content"
                 android:text="@string/social" />
 
             <LinearLayout
                 android:id="@+id/about_social_layout"
                 android:layout_width="match_parent"
+                android:visibility="gone"
                 android:layout_height="wrap_content"
                 android:orientation="vertical" />
 
@@ -91,12 +93,14 @@
                 android:background="@color/divider_grey"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
+                android:visibility="gone"
                 app:layout_constraintTop_toBottomOf="@+id/about_social_layout" />
 
             <TextView
                 android:id="@+id/about_other"
                 style="@style/MaterialSectionLabelStyle"
                 android:layout_width="match_parent"
+                android:visibility="gone"
                 android:layout_height="wrap_content"
                 android:text="@string/other" />
 
@@ -104,6 +108,7 @@
                 android:id="@+id/about_other_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:orientation="vertical" />
 
             <ImageView
@@ -111,6 +116,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/divider_height"
                 android:background="@color/divider_grey"
+                android:visibility="gone"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/about_other_layout" />
@@ -122,7 +128,7 @@
                 android:layout_marginStart="@dimen/label_start_margin"
                 android:layout_marginTop="@dimen/big_margin"
                 android:layout_marginBottom="@dimen/big_margin"
-                android:text="@string/about_footer"
+                android:text="@string/made_in_tanzania"
                 android:textSize="@dimen/bigger_text_size" />
 
         </LinearLayout>
