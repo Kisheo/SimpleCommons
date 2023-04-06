@@ -66,8 +66,8 @@ class AboutActivity : BaseSimpleActivity() {
         about_other_layout.removeAllViews()
 
         setupFAQ()
-        setupEmail()
-        setupRateUs()
+      //  setupEmail()
+      //  setupRateUs()
       //  setupInvite()
         setupContributors()
        // setupDonate()
