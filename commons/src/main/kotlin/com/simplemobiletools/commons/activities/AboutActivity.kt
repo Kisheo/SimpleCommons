@@ -68,18 +68,18 @@ class AboutActivity : BaseSimpleActivity() {
         setupFAQ()
         setupEmail()
         setupRateUs()
-        setupInvite()
+      //  setupInvite()
         setupContributors()
-        setupDonate()
-        setupFacebook()
-        setupGitHub()
-        setupReddit()
-        setupTelegram()
-        setupMoreApps()
-        setupWebsite()
-        setupPrivacyPolicy()
-        setupLicense()
-        setupVersion()
+       // setupDonate()
+      //  setupFacebook()
+      //  setupGitHub()
+       // setupReddit()
+       // setupTelegram()
+      //  setupMoreApps()
+      //  setupWebsite()
+      //  setupPrivacyPolicy()
+      //  setupLicense()
+      //  setupVersion()
     }
 
     private fun setupFAQ() {
@@ -292,7 +292,7 @@ class AboutActivity : BaseSimpleActivity() {
             about_social_layout.addView(this)
 
             setOnClickListener {
-                launchViewIntent("https://github.com/SimpleMobileTools")
+                launchViewIntent("https://github.com/Kisheo")
             }
         }
     }
@@ -309,7 +309,7 @@ class AboutActivity : BaseSimpleActivity() {
             about_social_layout.addView(this)
 
             setOnClickListener {
-                launchViewIntent("https://www.reddit.com/r/SimpleMobileTools")
+                launchViewIntent("https://www.reddit.com/r/dpsoftApps")
             }
         }
     }
@@ -331,7 +331,7 @@ class AboutActivity : BaseSimpleActivity() {
             about_social_layout.addView(this)
 
             setOnClickListener {
-                launchViewIntent("https://t.me/SimpleMobileTools")
+                launchViewIntent("https://t.me/Dpsxxxxxxx")
             }
         }
     }
@@ -361,7 +361,7 @@ class AboutActivity : BaseSimpleActivity() {
             about_other_layout.addView(this)
 
             setOnClickListener {
-                launchViewIntent("https://simplemobiletools.com/")
+                launchViewIntent("https://website.com/")
             }
         }
     }
@@ -376,8 +376,8 @@ class AboutActivity : BaseSimpleActivity() {
             about_other_layout.addView(this)
 
             setOnClickListener {
-                val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.simplemobiletools.")
-                val url = "https://simplemobiletools.com/privacy/$appId.txt"
+                val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.dpsoftapps.")
+                val url = "https://Kisheo.com/privacy/$appId.txt"
                 launchViewIntent(url)
             }
         }
