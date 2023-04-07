@@ -55,7 +55,7 @@ class CustomizationActivity : BaseSimpleActivity() {
 
         updateMaterialActivityViews(customization_coordinator, customization_holder, useTransparentNavigation = true, useTopSearchMenu = false)
 
-        isThankYou = packageName.removeSuffix(".debug") == "com.dpsoftapps.thankyou"
+        isThankYou = true /*packageName.removeSuffix(".debug") == "com.dpsoftapps.thankyou"*/
         initColorVariables()
 
         if (isThankYouInstalled()) {

@@ -653,7 +653,9 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         if (isOrWasThankYouInstalled()) {
             startCustomizationActivity()
         } else {
-            FeatureLockedDialog(this) {}
+           // FeatureLockedDialog(this) {}
+            startCustomizationActivity()
+
         }
     }
 
