@@ -7,8 +7,8 @@ android {
     compileSdkVersion propCompileSdkVersion
 
     defaultConfig {
-        minSdkVersion propMinSdkVersion
-        targetSdkVersion propTargetSdkVersion
+        minSdkVersion 21
+        targetSdkVersion 33
     }
 
     buildTypes {
